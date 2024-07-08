@@ -1,0 +1,19 @@
+body {
+    background-color: #FFDFF8;
+}
+
+h1
+{
+    color: #D71695;
+    position: absolute;
+    left: 30px;
+}
+
+.sareephoto img {
+
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 419px;
+    height: 511px;
+}
