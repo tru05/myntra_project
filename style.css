@@ -32,8 +32,11 @@ h1
     text-decoration:none;
     font-size:large;
     
+<<<<<<< HEAD
   font-family: "Poppins", sans-serif
     
+=======
+>>>>>>> 9016d1ab65eef117e2e71179b9ad7d7f9e28bd17
 }
 #stylespree
 {
@@ -41,12 +44,19 @@ h1
     font-weight:bolder;
     font-size:35px;
     text-shadow: black;
+<<<<<<< HEAD
     font-family: 'Times New Roman', Times, serif;
+=======
+>>>>>>> 9016d1ab65eef117e2e71179b9ad7d7f9e28bd17
 }
 #login
 {
     border:2px solid #D71695;
+<<<<<<< HEAD
     margin:20px 25px;
+=======
+    margin:20px 200px;
+>>>>>>> 9016d1ab65eef117e2e71179b9ad7d7f9e28bd17
     padding:5px 15px;
 }
 
@@ -56,7 +66,11 @@ h1
     color: black;
   }
   .main
+<<<<<<< HEAD
   { font:rufina;
+=======
+  {
+>>>>>>> 9016d1ab65eef117e2e71179b9ad7d7f9e28bd17
     padding:75px;
     padding-left:150px;
     padding-bottom:30px;
@@ -67,6 +81,7 @@ h1
     font-weight:400;
   }
   .sub
+<<<<<<< HEAD
   
     {
         font:poppins;
@@ -124,4 +139,14 @@ h1
   #cart
   {
     padding-left:170px;
+=======
+  {
+    height:200px;
+    width:300px;
+    color:#62244b;
+    font-size:25px;
+    padding-top:93px;
+    padding-left:150px;
+    line-height:45px;
+>>>>>>> 9016d1ab65eef117e2e71179b9ad7d7f9e28bd17
   }
