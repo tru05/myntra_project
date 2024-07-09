@@ -1,3 +1,4 @@
+
 body {
     background-color: #FFDFF8;
 }
@@ -13,7 +14,114 @@ h1
 
     position: absolute;
     top: 100px;
-    right: 50px;
-    width: 419px;
+    right: 250px;
+    width: 475px;
     height: 511px;
 }
+.navbar
+{
+    overflow:hidden;
+}
+.navbar a
+{
+    float:left;
+    display:block;
+    color:#D71695;
+    text-align:center;
+    padding:20px 25px;
+    text-decoration:none;
+    font-size:large;
+    
+  font-family: "Poppins", sans-serif
+    
+}
+#stylespree
+{
+    padding:20px 200px 50px 150px;
+    font-weight:bolder;
+    font-size:35px;
+    text-shadow: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#login
+{
+    border:2px solid #D71695;
+    margin:20px 25px;
+    padding:5px 15px;
+}
+
+.navbar a:hover {
+
+  
+    color: black;
+  }
+  .main
+  { font:rufina;
+    padding:75px;
+    padding-left:150px;
+    padding-bottom:30px;
+    width:500px;
+    height:50px;
+    color:#D71695;
+    font-size:70px;
+    font-weight:400;
+  }
+  .sub
+  
+    {
+        font:poppins;
+        height:200px;
+        width:300px;
+        color:#62244b;
+        font-size:25px;
+        padding-top:93px;
+        padding-left:150px;
+        line-height:45px;
+      }
+   #quiz_button{
+    height:50px;
+    width:230px;
+    padding:10px;
+    border:2px solid #D71695;
+    color:rgb(224, 211, 144);
+    margin-left:150px;
+    font-family:'Lucida Sans';
+    background-color: #D71695;
+    box-shadow:black;
+    text-decoration: none;
+   }
+  .fushion
+  {
+    font-size:65px;
+    padding-top:250px;
+    padding-left:500px;
+    font-family: "Space Grotesk", sans-serif;
+  font-weight:300;
+    color:#E2657B;
+    text-emphasis-color: #a26d3e;
+    text-shadow:2px 2px grey;
+  }
+  .info
+  {
+    padding-top:30px;
+   padding-left:520px;
+   font-size:23px;
+  font-family: "Preahvihear", sans-serif;
+  color:#CE57AD;
+  }
+  .image{
+    width:375px;
+    height:500px;
+    padding:20px 50px;
+  }
+  .images
+  {
+    overflow:hidden;
+    display:block;
+    justify-content:space-evenly;
+   
+  }
+  #cart
+  {
+    padding-left:170px;
+  }
