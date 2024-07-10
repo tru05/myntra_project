@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maname&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    background-color: rgb(244, 233, 233);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar a {
+    color: #D71695;
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+#stylespree {
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#login {
+    border: 2px solid #D71695;
+    padding: 5px 15px;
+}
+
+#cart {
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 10%;
+}
+
+@media (max-width: 1200px) {
+    .main {
+        font-size: 60px;
+    }
+
+    .fusion {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main {
+        font-size: 50px;
+    }
+
+    .fusion {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        font-size: 40px;
+    }
+
+    .sub {
+        font-size: 20px;
+    }
+
+    .fusion {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+        font-size: 30px;
+    }
+
+    .fusion {
+        font-size: 25px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 772px) and (min-height: 643px) {
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+}
+
+
+h3{
+    text-align: center;
+    font-family: "Maname", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #662b66;
+  text-shadow: 0 0.5px black;
+    font-size: 2.4vw;
+    margin: 2%;
+}
+
+h2{
+
+    text-align: center;
+    margin: 1%;
+}
+
+.main{
+    width: 80vw;
+    background-color: white;
+    /* height: 100px; */
+    padding: 3%;
+    margin: auto;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 1.6vw;
+    font-style: normal;
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 2%;
+
+    gap: 6%;
+}
+
+img{
+    width: 60vw;
+    height: 25vw;
+    border-radius: 10px;
+}
