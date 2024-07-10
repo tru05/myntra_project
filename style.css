@@ -10,13 +10,14 @@ h1 {
   text-align: center;
   margin: 20px 0;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -104,13 +105,14 @@ h1 {
   text-align: center;
   margin: 20px 0;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -212,81 +214,90 @@ h1 {
 
 .image {
   width: 100%;
-  max-width: 500px; 
-  height: 500px; 
-  object-fit: cover; 
-  border-radius: 50px; 
+  max-width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50px;
 }
 
 .image:nth-child(2) {
-  border-radius: 70px; }
+  border-radius: 70px;
+}
 
 #cart {
   width: 30px;
   height: 30px;
-  border-radius:10%;
+  border-radius: 10%;
 }
-
 
 @media (max-width: 1200px) {
   .main {
-      font-size: 60px;
+    font-size: 60px;
   }
+
   .fusion {
-      font-size: 50px;
+    font-size: 50px;
   }
 }
 
 @media (max-width: 992px) {
   .main {
-      font-size: 50px;
+    font-size: 50px;
   }
+
   .fusion {
-      font-size: 40px;
+    font-size: 40px;
   }
 }
 
 @media (max-width: 768px) {
   .navbar {
-      flex-direction: column;
+    flex-direction: column;
   }
+
   .navbar a {
-      padding: 10px 0;
-      width: 100%;
-      text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
   }
+
   .content {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
+
   .main {
-      font-size: 40px;
+    font-size: 40px;
   }
+
   .sub {
-      font-size: 20px;
+    font-size: 20px;
   }
+
   .fusion {
-      font-size: 35px;
+    font-size: 35px;
   }
 }
 
 @media (max-width: 576px) {
   .main {
-      font-size: 30px;
+    font-size: 30px;
   }
+
   .fusion {
-      font-size: 25px;
+    font-size: 25px;
   }
+
   .info {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 772px) and (min-height: 643px) {
   .navbar {
-      position: sticky;
-      top: 0;
-      z-index: 1000; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
 }
 
@@ -305,80 +316,90 @@ h1 {
 
 .image {
   width: 100%;
-  max-width: 500px; 
-  height: 500px; 
-  object-fit: cover; 
-  border-radius: 50px; 
+  max-width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50px;
 }
 
 .image:nth-child(2) {
-  border-radius: 70px; }
+  border-radius: 70px;
+}
 
 #cart {
   width: 30px;
   height: 30px;
-  border-radius:10%;
+  border-radius: 10%;
 }
 
 
 @media (max-width: 1200px) {
   .main {
-      font-size: 60px;
+    font-size: 60px;
   }
+
   .fusion {
-      font-size: 50px;
+    font-size: 50px;
   }
 }
 
 @media (max-width: 992px) {
   .main {
-      font-size: 50px;
+    font-size: 50px;
   }
+
   .fusion {
-      font-size: 40px;
+    font-size: 40px;
   }
 }
 
 @media (max-width: 768px) {
   .navbar {
-      flex-direction: column;
+    flex-direction: column;
   }
+
   .navbar a {
-      padding: 10px 0;
-      width: 100%;
-      text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
   }
+
   .content {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
+
   .main {
-      font-size: 40px;
+    font-size: 40px;
   }
+
   .sub {
-      font-size: 20px;
+    font-size: 20px;
   }
+
   .fusion {
-      font-size: 35px;
+    font-size: 35px;
   }
 }
 
 @media (max-width: 576px) {
   .main {
-      font-size: 30px;
+    font-size: 30px;
   }
+
   .fusion {
-      font-size: 25px;
+    font-size: 25px;
   }
+
   .info {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 772px) and (min-height: 643px) {
   .navbar {
-      position: sticky;
-      top: 0;
-      z-index: 1000; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
 }
