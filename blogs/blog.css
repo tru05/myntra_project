@@ -1,0 +1,90 @@
+body{
+    background-color:rgb(255, 215, 250) ;
+}
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white; /* Set navbar background color to white */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.navbar a{
+    
+        float:left;
+        display:block;
+        color:#D71695;
+        text-align:center;
+        padding:25px 50px;
+        text-decoration:none;
+        font-size:large;
+      font-family: "Poppins", sans-serif
+        
+}
+#stylespree {
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:1px 1px black;
+  }
+  #login
+{
+    border:2px solid #D71695;
+    margin:20px 25px;
+    margin:20px 50px;
+    padding:5px 15px;
+}
+#cart
+{
+  border-radius:10px;
+}
+.blog
+{
+  padding-top:50px;
+  padding-left:180px;
+  font-size:28px;
+  font-family: "Ubuntu Mono", monospace;
+  color:#742764
+}
+.grid-container
+{
+  padding-top:50px;
+  display:grid;
+  grid-template-rows:400px 400px;
+  grid-template-columns:400px 400px 400px;
+  justify-content: space-evenly;
+}
+#gridi
+{
+  height:300px;
+  width:400px;
+  border-radius:10px;
+}
+.info
+{
+  padding-left:50px;
+  padding-top:12px;
+  font-size:20px;
+  color:#48183f
+}
+.footer
+{
+  padding-top:50px;
+  height:100px;
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  background-color:white;
+  border-radius:5px;
+}
+#foot
+{
+  height:40px;
+  width:40px;
+}
+.name{
+  padding-top:20px;
+  padding-left:200px;
+  font-size:20px;
+}
