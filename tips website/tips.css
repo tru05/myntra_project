@@ -144,6 +144,7 @@ h2{
     padding: 3%;
     margin: auto;
     margin-top: 4%;
+    margin-bottom: 4%;
     /* border: 2px solid black; */
     border-radius: 10px;
     font-family: "Playfair Display", serif;
@@ -168,4 +169,26 @@ img{
     width: 60vw;
     height: 25vw;
     border-radius: 10px;
+}
+
+.footer
+{
+  padding-top:50px;
+  height:100px;
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  background-color:white;
+  border-radius:5px;
+}
+#foot
+{
+  height:40px;
+  width:40px;
+}
+
+.name{
+  padding-top:20px;
+  padding-left:200px;
+  font-size:20px;
 }

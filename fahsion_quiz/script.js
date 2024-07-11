@@ -153,7 +153,7 @@ const endquiz = () => {
     }
     document.getElementById("box").innerHTML = `
         <h1>Thank you for playing the quiz</h1>
-        <h2>${ans}</h2>
+        <h1>${ans}</h1>
     `;
 };
 

@@ -161,8 +161,8 @@ const reset = () =>{
 
 const endquiz = () =>{
     document.getElementById("box").innerHTML = `
-    <h2>Thank you for playing the quiz</h2>
-    <h2> Your score is ${right} / ${total} </h2>
+    <h1>Thank you for playing the quiz</h1>
+    <h1> Your score is ${right} / ${total} </h1>
     `
 }
 loadquestion();

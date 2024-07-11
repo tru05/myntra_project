@@ -68,6 +68,9 @@ body {
 
 .main h1 {
     text-align: center;
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2%;
 }
 
 #box {
@@ -92,7 +95,7 @@ body {
     margin: auto;
     margin-bottom: 3%;
     width: 30vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 
@@ -151,8 +154,8 @@ input[type="radio"]:checked+label:before {
 }
 
 .next img {
-    width: 17%;
-    height: 27%;
+    width: 20%;
+    height: 30%;
 }
 
 .next img:hover {
